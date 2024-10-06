@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>student calculate</title>
+    <link href=
+"https://fonts.googleapis.com/css?family=Righteous&display=swap" 
+          rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Student Grade System</title>
+</head>
+<style>
+    body{
+      background-image: 
+      url("c:\Users\Admin\Downloads\images.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: cover; }
+  </style>
+
+<body>
+    <center>
+    <h1>Student Grade System</h1>
+      <h4>
+        <p>In a student grade system for a web development project, the primary goal is to create a platform that automates the grading process based on student performance. This system allows teachers to input students' scores for various assignments, quizzes, and exams. It then calculates the final grade by applying predefined weightings to each component (e.g., 40% for exams, 30% for assignments). The platform should also support grade categorization (A, B, C, etc.) and provide analytics such as class averages and performance trends. A user-friendly interface with real-time updates and secure access for both students and teachers is essential for an efficient experience.</p>
+    </h4><p style="background-image: url('c:\Users\Admin\Downloads\images.jpg');"></p>"
+    <div class="container">
+        <h1>Student grade calculator</h1>
+        <img src="c:\Users\Admin\Downloads\download.jpg">
+        <div class="screen-body-item">
+            <div class="app">
+                <div class="form-group">
+                    <input type="text" 
+                           class="form-control" 
+                           placeholder="CHEMISTRY" 
+                           id="chemistry" />
+                </div>
+                <div class="form-group">
+                    <input type="text" 
+                           class="form-control" 
+                           placeholder="ENGLISH" id="hindi" />
+                </div>
+                <div class="form-group">
+                    <input type="text" 
+                           class="form-control" 
+                           placeholder="MATHS" id="maths" />
+                </div>
+                <div class="form-group">
+                    <input type="text" 
+                           class="form-control" 
+                           placeholder="PHYSICS" id="phy" />
+                </div>
+                <div>
+                    <input type="button" 
+                           value="show Percentage" 
+                           class="form-button" 
+                           onclick="calculate()" />
+                </div>
+            </div>
+        </div>
+        <!-- for showing the result-->
+        <div class="form-group showdata">
+            <p id="showdata"></p>
+        </div>
+    </div>
+    <!--adding external javascript file-->
+    <script src="script.js"></script>
+    </center>
+</body>
+
+</html>
